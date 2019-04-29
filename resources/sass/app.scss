@@ -1,0 +1,44 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'helpers';
+
+html, body {
+	background-color: $bbd-blue;
+}
+
+//
+//// Helper Class Reference
+//
+// .bg-color {} - Sets Background Color
+// .link-color {} - Sets Link Color
+
+/////////////////////////////////////////////////////////////
+
+// Styles for Error Pages
+
+.error-code-header {
+
+	font-size: 15em;
+	font-weight: bold;
+	color: $ember;
+
+}
+
+.error-code-body {
+
+	font-size: 1.5em;
+	padding: 2em 0em;
+
+}
+
+/////////////////////////////////////////////////////////////
+
+// Layout Styles
+@import 'layouts';
