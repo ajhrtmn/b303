@@ -1,44 +1,20 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-// Variables
-@import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Variables and Helperts
+@import "variables";
+@import "helpers";
 
-@import 'helpers';
-
-html, body {
-	background-color: $bbd-blue;
+body,html {
+	height: 100vh;
 }
 
-//
-//// Helper Class Reference
-//
-// .bg-color {} - Sets Background Color
-// .link-color {} - Sets Link Color
 
-/////////////////////////////////////////////////////////////
+// Pages
+@import "home";
 
-// Styles for Error Pages
 
-.error-code-header {
-
-	font-size: 15em;
-	font-weight: bold;
-	color: $ember;
-
-}
-
-.error-code-body {
-
-	font-size: 1.5em;
-	padding: 2em 0em;
-
-}
-
-/////////////////////////////////////////////////////////////
-
-// Layout Styles
-@import 'layouts';
+// Bulma - Alter variables before importing.
+@import "bulma";

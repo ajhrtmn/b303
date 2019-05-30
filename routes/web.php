@@ -12,13 +12,6 @@
 */
 
 
-//
-// Allow Vue to direct view routing
-//
-// ** Note: GET and POST routes for database
-//    located in routes/api.php
-//
-
-Route::get('/{any?}', function () {
-    return view('app');
-})->where('any', '.*');
+Route::get('/', function () {
+    return view('site.home');
+});

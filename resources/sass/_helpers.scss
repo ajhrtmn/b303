@@ -4,7 +4,7 @@
 // Color list and Shade values stored in _variables.scss
 
 @mixin color-picker($attribute) {
-	@each $color_set, $color in $colors {
+	@each $color_set, $color in $user-colors {
 		&-#{$color_set} {
 			#{$attribute}: $color;
 		}
@@ -18,7 +18,7 @@
 }
 
 @mixin color-picker-a($attribute) {
-	@each $color_set, $color in $colors {
+	@each $color_set, $color in $user-colors {
 		&-#{$color_set} {
 			a{#{$attribute}: $color;}
 			a:hover{#{$attribute}: darken($color, $darken-by);}
@@ -49,20 +49,6 @@
 
 }
 
-.flex-reverse-row {
-
-	display: flex;
-	flex-direction: row-reverse;
-
-}
-
-.flex-reverse-col {
-
-	display: flex;
-	flex-direction: column-reverse;
-
-}
-
 
 //
 //// Utility Classes
@@ -86,10 +72,74 @@
 .ul-clean {
 
 	list-style: none;
+	padding: 0rem;
+	margin: 0rem;
 
 }
-.full-length {
+
+.no-pdm {
+	padding: 0px;
+	margin: 0px;
+}
+
+.full-height {
 
 	height: 100vh;
 
 }
+
+
+// Flex Classes
+
+.fx-flex {
+
+	display: flex;
+
+}
+
+.fx-navbar {
+
+	width: 100%;
+	margin: .5rem 0rem .5rem 0rem;
+	align-items: baseline;
+
+	.fx-brand {
+		margin: 0rem 2.5rem 0rem 0rem;
+		font-size: 1.15rem;
+	}
+
+	.fx-navlinks {
+		margin: 0rem 1rem 0rem 0rem;
+		a {
+			margin: 0rem 1rem 0rem 0rem;
+		}
+	}
+
+	.fx-right {
+		margin: 0rem 0rem 0rem auto;
+		a {
+			margin: 0rem 0rem 0rem 1rem;
+		}
+	}
+
+}
+
+.fx-body {
+	display: flex;
+	flex-direction: column;
+}
+
+.fx-reverse-row {
+
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+
+.fx-reverse-col {
+
+	display: flex;
+	flex-direction: column-reverse;
+
+}
+

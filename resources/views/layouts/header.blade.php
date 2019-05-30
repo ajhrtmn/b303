@@ -1,18 +1,76 @@
-<nav class="site-header sticky-top py-1 bg-color-bbd-yellow">
-	<div class="container d-flex flex-column flex-md-row justify-content-between">
+<nav class="navbar has-background-warning" role="navigation" aria-label="main navigation">
+	<div class="container is-fluid">
+		<div class="navbar-brand">
+			<img src="/imgs/303logo.png" style="max-width: 80px;max-height: 80px; margin: 1rem;">
+			<a class="navbar-item montserrat" href="#" style="font-size: 2rem;">
+				Business303
+			</a>
 
-		<span class="py-2 text-bold">
-			Business303
-		</span>
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
 
-		<router-link class="py-2 d-none d-md-inline-block link-color-char text-color-char" to='/' exact>Home</router-link>
-		<router-link class="py-2 d-none d-md-inline-block link-color-char text-color-char" to='/1'>Team</router-link>
-		<router-link class="py-2 d-none d-md-inline-block link-color-char text-color-char" to='/2'>Solutions</router-link>
-		<router-link class="py-2 d-none d-md-inline-block link-color-char text-color-char" to='/3'>Programs</router-link>
-		<router-link class="py-2 d-none d-md-inline-block link-color-char text-color-char" to='/4'>Appointments</router-link>
-		<router-link class="py-2 d-none d-md-inline-block link-color-char text-color-char" to='/5'>Store</router-link>
-		<router-link class="py-2 d-none d-md-inline-block link-color-char text-color-char" to='/6'>Press Kit</router-link>
-		<router-link class="py-2 d-none d-md-inline-block link-color-char text-color-char" to='/7'>Testimonials</router-link>
+		<div id="main-nav" class="navbar-menu">
+			<div class="navbar-end">
+				<a class="navbar-item" href="#">
+					Home
+				</a>
 
+				<a class="navbar-item" href="#">
+					Team
+				</a>
+
+				<a class="navbar-item" href="#">
+					Testimonials
+				</a>
+
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link">
+						Solutions
+					</a>
+
+					<div class="navbar-dropdown">
+						<a class="navbar-item" href="#">
+							Coaching
+						</a>
+						<a class="navbar-item" href="#">
+							Events
+						</a>
+						<a class="navbar-item" href="#">
+							Mastermind
+						</a>
+						<hr class="navbar-divider">
+						<a class="navbar-item" href="#">
+							Get the Book
+						</a>
+					</div>
+				</div>
+
+				<a class="navbar-item" href="#">
+					Store
+				</a>
+
+				<a class="navbar-item" href="#">
+					Blog
+				</a>
+
+			</div>
+
+			{{-- <div class="navbar-end">
+				<div class="navbar-item">
+					<div class="buttons">
+						<a class="button is-primary">
+							<strong>Sign up</strong>
+						</a>
+						<a class="button is-light">
+							Log in
+						</a>
+					</div>
+				</div>
+			</div> --}}
+		</div>
 	</div>
 </nav>

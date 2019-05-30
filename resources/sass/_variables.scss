@@ -3,8 +3,12 @@ $body-bg: #f8fafc;
 
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;
+$logo-font: 'Arvo', serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
 
 // Colors
 $blue: #3490dc;
@@ -18,14 +22,38 @@ $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
 
+
 // User Colors
+$crimson: hsl(355, 77, 52);
 $ash: hsl(49, 13, 90);
 $char: hsl(30, 10, 15);
-$crimson: hsl(355, 77, 52);
 $ember: hsl(20, 75, 50);
+$welldone: hsla(15, 20%, 15%, 1);
+$mediumwell: hsla(15, 15%, 75%, 1);
+$dijon: hsla(45, 55%, 55%, 1);
+$olive: hsla(90, 50%, 40%, 1);
+$keylime: hsla(90, 25%, 75%, 1);
+$start: hsla(100, 100%, 50%, 1);
+$graphite: hsla(200, 10%, 10%, 1);
+$cobalt: hsla(200, 30%, 25%, 1);
 
-$bbd-blue: hsla(190, 98%, 33%, 1);
-$bbd-yellow: hsla(45, 100%, 60%,1);
+// Project Colors
+$bbd-yellow: #ffcc34;
+$bbd-blue: #028da8;
+
+//Bulma Defaults
+$white: hsl(0, 0%, 100%);
+$black:	hsl(0, 0%, 4%);
+$light: hsl(0, 0%, 96%);
+$dark: hsl(0, 0%, 21%);
+
+$primary: $bbd-blue;//hsl(171, 100%, 41%);
+$link: hsl(217, 71%, 53%);
+$info: hsl(204, 86%, 53%);
+$success: hsl(141, 71%, 48%);
+$warning: $bbd-yellow; //hsl(48, 100%, 67%);
+$danger: hsl(348, 100%, 61%);
+
 
 
 // Sets % of shade change for Color Picker helper classes
@@ -34,13 +62,22 @@ $darken-by: 10%;
 
 // Must add color to list in order to access it
 // with the Color Picker helper classes
-$colors: (
+$user-colors: (
 
 ash: $ash,
 char: $char,
 crimson: $crimson,
 ember: $ember,
-bbd-blue: $bbd-blue,
-bbd-yellow: $bbd-yellow
+welldone: $welldone,
+mediumwell: $mediumwell,
+dijon: $dijon,
+olive: $olive,
+keylime: $keylime,
+start: $start,
+white: $white,
+black: $black,
+graphite: $graphite,
+cobalt: $cobalt,
+bbd-blue: $bbd-blue
 
 );
