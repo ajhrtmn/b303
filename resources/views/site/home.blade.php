@@ -2,42 +2,11 @@
 
 @section('content')
 <div class="montserrat">
-	<div id="home-hero" class="hero is-medium" style="text-align: center;">
-		<div class="hero-body columns is-vcentered" style="margin: 0px auto; width: 90%;">
-			<ul class="column box cloud" style="font-size: 1rem;">
-				<li>
-					fractured
-				</li>
-				<li>
-					distracted
-				</li>
-				<li>
-					unfocused
-				</li>
-				<li>
-					discouraged
-				</li>
-				<li>
-					anxious
-				</li>
-				<li>
-					lazy
-				</li>
-				<li>
-					restless
-				</li>
-				<li>
-					impulsive
-				</li>
-				<li>
-					depressed
-				</li>
-			</ul>
-			<div class="column">
-				<i class="material-icons has-text-warning" style="font-size: 10rem; margin: 0px; padding: 0px;">arrow_forward</i>
-			</div>
-			<div class="column" style="font-size: 5rem; margin: 0px; padding: 0px;">
-				<div class="box">NOT ME</div>
+	<div id="home-hero" class="hero is-medium">
+		<div class="container is-fluid">
+			<div class="hero-blur" style="max-width: 50%; background-color: hsla(0, 0%, 5%,.25); min-height: 400px;">
+				<div class="montserrat" style="padding: 3rem; font-size: 4rem; font-weight: 800; color: hsla(45, 100%, 60%,1);">Paint your own damn lines.</div>
+				<a class="button is-success is-large is-fullwidth" style="margin: 1rem auto 0rem auto; width: 80%;">Learn How</a>
 			</div>
 		</div>
 	</div>

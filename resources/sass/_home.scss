@@ -23,8 +23,18 @@
 }
 
 #home-hero {
-    background-image: url("/imgs/ringer_style_03.png");
-    background-position: center;
+    background-image: url("/imgs/spacepaint.png");
+    background-position: 80% 0%;
     background-repeat: no-repeat;
-    background-color: $bbd-blue;
+    background-color: $white;
+}
+#home-content {
+    background-image: url("/imgs/billythekid.png");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+.hero-blur {
+    -webkit-backdrop-filter: blur(25px); /* Safari */
+    backdrop-filter: blur(25px);
 }

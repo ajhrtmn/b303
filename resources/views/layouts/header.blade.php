@@ -1,7 +1,7 @@
-<nav class="navbar has-background-warning" role="navigation" aria-label="main navigation">
+<nav class="navbar has-background-white" role="navigation" aria-label="main navigation">
 	<div class="container is-fluid">
 		<div class="navbar-brand">
-			<img src="/imgs/303logo.png" style="max-width: 80px;max-height: 80px; margin: 1rem;">
+			<img src="/imgs/303logo.png" style="max-width: 75px;max-height: 75px; margin: .75rem;">
 			<a class="navbar-item montserrat" href="#" style="font-size: 2rem;">
 				Business303
 			</a>

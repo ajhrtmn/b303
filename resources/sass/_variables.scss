@@ -38,8 +38,8 @@ $graphite: hsla(200, 10%, 10%, 1);
 $cobalt: hsla(200, 30%, 25%, 1);
 
 // Project Colors
-$bbd-yellow: #ffcc34;
-$bbd-blue: #028da8;
+$bbd-yellow: hsla(45, 100%, 60%, 1);//#ffcc34;
+$bbd-blue: hsla(190, 98%, 33%, 1);//#028da8;
 
 //Bulma Defaults
 $white: hsl(0, 0%, 100%);
@@ -78,6 +78,7 @@ white: $white,
 black: $black,
 graphite: $graphite,
 cobalt: $cobalt,
-bbd-blue: $bbd-blue
+bbd-blue: $bbd-blue,
+bbd-yellow: $bbd-yellow
 
 );
