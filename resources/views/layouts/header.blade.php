@@ -1,9 +1,8 @@
 <nav class="navbar has-background-white" role="navigation" aria-label="main navigation">
 	<div class="container is-fluid">
 		<div class="navbar-brand">
-			<img src="/imgs/303logo.png" style="max-width: 75px;max-height: 75px; margin: .75rem;">
-			<a class="navbar-item montserrat" href="#" style="font-size: 2rem;">
-				Business303
+			<a class="navbar-item montserrat" href="#" style="font-size: 2rem; margin: 1rem 0rem;">
+				<img src="/imgs/LogoMockTEXT.png">
 			</a>
 
 			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
