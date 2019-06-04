@@ -15,3 +15,7 @@
 Route::get('/', function () {
     return view('site.home');
 });
+
+Route::get('/imgview', function () {
+    return view('imgview');
+});

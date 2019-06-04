@@ -19,3 +19,15 @@ body,html {
 
 // Bulma - Alter variables before importing.
 @import "bulma";
+
+
+
+
+#imgview {
+	display: flex;
+	flex-wrap: wrap;
+	.imgimg {
+		max-width: 200px;
+		max-height: 100px;
+	}
+}
