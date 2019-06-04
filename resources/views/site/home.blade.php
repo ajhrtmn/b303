@@ -3,7 +3,7 @@
 @section('content')
 <div class="montserrat">
 	<div id="home-hero" class="hero" style="">
-		<div class="hero-body" style="text-align: center; margin: 10rem 0px;">
+		<div class="hero-body" style="text-align: center; margin: 14rem 0px;">
 			{{-- <div class="hero-blur box" style="background-color: hsla(0, 0%, 100%,.5);"> --}}
 			<div style="margin-bottom: 3rem;">
 				<div class="montserrat" style=" font-size: 2.5rem; font-weight: 800; color: hsla(0, 0%, 100%,1);">
