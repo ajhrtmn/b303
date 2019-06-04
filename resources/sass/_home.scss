@@ -23,10 +23,11 @@
 }
 
 #home-hero {
-    background-image: url("/imgs/spacepaint.png");
-    background-position: 80% 0%;
+    background-image: url("/imgs/rainbowgirl.png");
+    background-position: 48% 50%;
     background-repeat: no-repeat;
     background-color: $white;
+    background-size: 100%;
 }
 #home-content {
     background-image: url("/imgs/billythekid.png");
@@ -35,6 +36,6 @@
 }
 
 .hero-blur {
-    -webkit-backdrop-filter: blur(25px); /* Safari */
-    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(15px); /* Safari */
+    backdrop-filter: blur(15px);
 }

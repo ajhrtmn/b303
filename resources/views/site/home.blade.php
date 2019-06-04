@@ -2,22 +2,29 @@
 
 @section('content')
 <div class="montserrat">
-	<div id="home-hero" class="hero is-medium">
-		<div class="container is-fluid">
-			<div class="hero-blur" style="max-width: 50%; background-color: hsla(0, 0%, 5%,.25); min-height: 400px;">
-				<div class="montserrat" style="padding: 3rem; font-size: 4rem; font-weight: 800; color: hsla(45, 100%, 60%,1);">Paint your own damn lines.</div>
-				<a class="button is-success is-large is-fullwidth" style="margin: 1rem auto 0rem auto; width: 80%;">Learn How</a>
+	<div id="home-hero" class="hero" style="">
+		<div class="hero-body" style="text-align: center; margin: 10rem 0px;">
+			{{-- <div class="hero-blur box" style="background-color: hsla(0, 0%, 100%,.5);"> --}}
+			<div style="margin-bottom: 3rem;">
+				<div class="montserrat" style=" font-size: 2.5rem; font-weight: 800; color: hsla(0, 0%, 100%,1);">
+					Make rules. Break rules.
+				</div>
+				<div class="montserrat" style=" font-size: 1rem; color: hsla(45, 0%, 90%,1);">
+					Resources for Business Owners & Executives with ADHD and AS.
+				</div>
+
 			</div>
+			<a class="button is-warning" href="#">Get To Work</a>
 		</div>
 	</div>
 	<div class="container is-fluid box" style="margin-top: 1rem;">
-		<h1 class="title" style="text-align: center;">Your Toolbox to Build a Better Life</h1>
-		<h2 class="subtitle" style="text-align: center;">Resources for Business Owners & Executives with ADHD and AS.</h2>
+		<h1 class="title" style="text-align: center;">Your Toolbox for Building a Better Life</h1>
+		<h2 class="subtitle" style="text-align: center;">Options for all leaders and heroes.</h2>
 		<hr>
-		<div class="columns">
+		<div class="columns ">
 			<div class="column">
 				<div class="card">
-					<div class="card-image has-background-warning" style="text-align: center;">
+					<div class="card-image bg-color-bbd-red text-color-white" style="text-align: center;">
 						<i class="material-icons" style="font-size: 5rem; margin: 2rem;">whatshot</i>
 					</div>
 					<div class="card-content">
@@ -28,7 +35,7 @@
 			</div>
 			<div class="column">
 				<div class="card">
-					<div class="card-image has-background-warning" style="text-align: center;">
+					<div class="card-image bg-color-bbd-green text-color-white" style="text-align: center;">
 						<i class="material-icons" style="font-size: 5rem; margin: 2rem;">group</i>
 					</div>
 					<div class="card-content">
@@ -39,7 +46,7 @@
 			</div>
 			<div class="column">
 				<div class="card">
-					<div class="card-image has-background-warning" style="text-align: center;">
+					<div class="card-image bg-color-bbd-yellow text-color-white" style="text-align: center;">
 						<i class="material-icons" style="font-size: 5rem; margin: 2rem;">flash_on</i>
 					</div>
 					<div class="card-content">
@@ -50,7 +57,7 @@
 			</div>
 			<div class="column">
 				<div class="card">
-					<div class="card-image has-background-warning" style="text-align: center;">
+					<div class="card-image bg-color-bbd-blue text-color-white" style="text-align: center;">
 						<i class="material-icons" style="font-size: 5rem; margin: 2rem;">call_split</i>
 					</div>
 					<div class="card-content">

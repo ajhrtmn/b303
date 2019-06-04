@@ -40,6 +40,10 @@ $cobalt: hsla(200, 30%, 25%, 1);
 // Project Colors
 $bbd-yellow: hsla(45, 100%, 60%, 1);//#ffcc34;
 $bbd-blue: hsla(190, 98%, 33%, 1);//#028da8;
+$bbd-red: hsla(355, 68%, 53%, 1);
+$bbd-green: hsla(140, 68%, 53%, 1);
+$bbd-orange: hsla(20, 68%, 53%, 1);
+$bbd-purple: hsla(275, 68%, 53%, 1);
 
 //Bulma Defaults
 $white: hsl(0, 0%, 100%);
@@ -52,7 +56,7 @@ $link: hsl(217, 71%, 53%);
 $info: hsl(204, 86%, 53%);
 $success: hsl(141, 71%, 48%);
 $warning: $bbd-yellow; //hsl(48, 100%, 67%);
-$danger: hsl(348, 100%, 61%);
+$danger: $bbd-red;//hsl(348, 100%, 61%);
 
 
 
@@ -79,6 +83,10 @@ black: $black,
 graphite: $graphite,
 cobalt: $cobalt,
 bbd-blue: $bbd-blue,
-bbd-yellow: $bbd-yellow
+bbd-yellow: $bbd-yellow,
+bbd-red: $bbd-red,
+bbd-green: $bbd-green,
+bbd-orange: $bbd-orange,
+bbd-purple: $bbd-purple
 
 );
